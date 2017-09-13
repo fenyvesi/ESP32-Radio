@@ -27,8 +27,8 @@ void setup()
   preferences.clear() ;                               // Remove all preferences under opened namespace
   // Store the preferences for ESP32-radio
   preferences.putString ( "gpio_00",  "uppreset = 1" ) ;
-  preferences.putString ( "gpio_12",  "upvolume = 2" ) ;
-  preferences.putString ( "gpio_13",  "downvolume = 2" ) ;
+  preferences.putString ( "gpio_36",  "upvolume = 2" ) ;
+  preferences.putString ( "gpio_25",  "downvolume = 2" ) ;
 
   preferences.putString ( "mqttbroker",   "none" ) |
   preferences.putString ( "mqttport",     "1883" ) |
@@ -36,8 +36,8 @@ void setup()
   preferences.putString ( "mqttpasswd",   "none" ) |
   preferences.putString ( "mqtttpreset",  "none" ) |
   //
-  preferences.putString ( "wifi_00", "NETGEAR-11/DEADC0DE11" ) |
-  preferences.putString ( "wifi_01", "ADSL-11/DEADC0DE11" ) |
+  preferences.putString ( "wifi_00", "MADOX3G/Newton01" ) |
+  preferences.putString ( "wifi_01", "TUSNAD6/Newton01" ) |
   //
   preferences.putString ( "volume", "72" ) |
   preferences.putString ( "toneha", "0" ) |
