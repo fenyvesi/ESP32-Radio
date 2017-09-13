@@ -1,4 +1,9 @@
 # ESP32-Radio
+
+Version for bult-in 128*64 OLED display based on 28 July version. cc fenyvesi.gyorgy@gmail.com
+
+PIN definition, display management changed
+
 Internet radio based on ESP32, VS1053 and a TFT screen.  Will compile in Arduino IDE.
 The 28-jul-2017 is a major update.  You MUST include the GPIO pin assignments in the preferences.
 See the documentation and/or the defaultsettings in the config page of the webinterface.
@@ -17,7 +22,6 @@ Features:
 - Can be controlled over Serial Input.
 - Can be controlled by IR.
 -	Can be controlled by rotary switch encoder.
-- Can be controlled by touch pins.
 -	Up to 14 free input pins can be configured to control the radio.
 -	The strongest available WiFi network is automatically selected.
 -	Heavily commented source code, easy to add extra functionality.
@@ -33,10 +37,6 @@ Features:
 See documentation in doc/pdf-file.
 
 Last changes:
-- 30-aug-2017: Limit number of retries foor MQTT connection. Added MDNS transponder.
-- 28-aug-2017: Preferences for SPI bus, touch pins.
-               Corrected bug in handling programmable pins.
-               Handling of http redirections.
 - 28-jul-2017: Added rotary swich encoder, flexible GPIO assignment.
 - 19-jul-2017: Minor corrections.
 - 18-jul-2017: Show time of day on TFT.
